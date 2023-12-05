@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSCI 393 Independent Study for RNA Reconstruction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #555;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #777;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to RNA Reconstruction By Matthew DiCicco</h1>
+    <p>Insert G-Enzyme and U.C-Enzyme below. Make sure your entry is in all caps and splits are seperated by a comma and one space after the comma. An example is G/UC- Enzyme : G, CU, AUG . For details on the project code, visit <a href="https://github.com/16mnd/CSCI-Unsupervised-Project.git" target="_blank">GitHub</a>.</p>
+    <form method="post" action="/">
+        <label for="string1">Enter G-Enzyme:</label>
+        <input type="text" id="string1" name="string1">
+        
+        <label for="string2">Enter U.C-Enzyme:</label>
+        <input type="text" id="string2" name="string2">
+        
+        <input type="submit" value="Process">
+    </form>
+</body>
+
+</html>
